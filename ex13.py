@@ -41,18 +41,18 @@
 # g.close()
 
 #txtにある情報に追加情報（平均）入力
-f = open("score.txt","r",encoding="utf-8")
-g = open("average.txt","w",encoding="utf-8")
-f.readline()
-g.write("日本語\t数学\t科学\t平均\n")
-for i in f.readlines():
-    A = i.split()
-    # kor = int(A[0])
-    # math = int(A[1])
-    # sci = int(A[2])
-    kor,math,sci = map(int,i.split())
-    ave = (kor+math+sci)/3
-    print(ave)
-    g.write(f"{kor}\t{math}\t{sci}\t{ave}\n")
-f.close()
-g.close()
+# f = open("score.txt","r",encoding="utf-8")
+# g = open("average.txt","w",encoding="utf-8")
+# f.readline()
+# g.write("日本語\t数学\t科学\t平均\n")
+# for i in f.readlines():
+#     A = i.split()
+#     # kor = int(A[0])
+#     # math = int(A[1])
+#     # sci = int(A[2])
+#     kor,math,sci = map(int,i.split())
+#     ave = (kor+math+sci)/3
+#     print(ave)
+#     g.write(f"{kor}\t{math}\t{sci}\t{ave}\n")
+# f.close()
+# g.close()
